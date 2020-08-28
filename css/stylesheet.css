@@ -12,9 +12,8 @@ body{
     /* font-size: 562.5%; */
 h1{
     margin: 50px auto 0 auto;
-    font-size: 5rem;
+    font-size: 4rem;
     font-family: 'Sacramento', cursive;
-    /* line-height: 2; */
     margin: 0 auto 0 auto;
     width: 20%;
     color: #66BFBF;
@@ -90,13 +89,13 @@ a{
 .top-cloud{
 position: absolute;
 margin-top: 50px;
-right: 300px;
+right: 100px;
 top: 40px;
 }
 
 .bottom-cloud{
     position:absolute;
-    left:250px;
+    left:150px;
     bottom: 300px;
 }
 
@@ -128,6 +127,7 @@ top: 40px;
     font-size: 0.75rem;
     padding: 20px 0;
 }
+/* this is the style for footer btn (contact me) */
 .btn {
     background: #11CDD4;
     background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
