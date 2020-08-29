@@ -12,11 +12,13 @@ body{
     /* font-size: 562.5%; */
 h1{
     margin: 50px auto 0 auto;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'Sacramento', cursive;
     margin: 0 auto 0 auto;
-    width: 20%;
+    /* width: 20%; */
     color: #66BFBF;
+    display: inline block;
+
 }
 
 h2{
@@ -73,8 +75,11 @@ a{
 }
 
 .profile-img{
-    width: 200px;
-    height: 200px;
+    width: 180px;
+    height: 250px;
+    border-radius: 50%;
+    border-style: double;
+    border-color: #11999E;
 }
 
 .bottom-container{
@@ -112,6 +117,17 @@ top: 40px;
 }
 
 .world-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+
+.dance-img{
+    width: 25%;
+    float: right;
+    margin-left: 30px;
+}
+.painting-img{
     width: 25%;
     float: right;
     margin-left: 30px;
